@@ -16,7 +16,7 @@ var waitForEl = function(selector, callback, count) {
         count=0;
       }
       count++;
-      console.log("count: " + count);
+      console.log("github version count: " + count);
       if(count<10) {
         waitForEl(selector,callback,count);
       } else {
