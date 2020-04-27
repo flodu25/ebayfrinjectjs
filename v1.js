@@ -101,6 +101,6 @@ waitForEl(selector, function() {
 
 
 
-  alert("v3.0");
+  alert("v5.0");
 
 });
