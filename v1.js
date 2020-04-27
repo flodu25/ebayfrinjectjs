@@ -76,7 +76,7 @@ waitForEl(selector, function() {
         //extract id link //
 
         // const regex2 = /\d{12,12}//g;
-        var regex2 = new RegExp("\\d{12,12}/g","g");
+        var regex2 = new RegExp("\\d{12,12}","g");
         var myarray2 = link.match(regex2);
         var id = myarray2[0];
         console.log("ID : " + id);
@@ -101,6 +101,6 @@ waitForEl(selector, function() {
 
 
 
-  alert("v5.0");
+  alert("v6.0");
 
 });
