@@ -99,6 +99,6 @@ waitForEl(selector, function() {
 
 
 
-  console.log("yay");
+  alert("yay");
 
 });
