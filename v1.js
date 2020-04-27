@@ -67,14 +67,16 @@ waitForEl(selector, function() {
 
         // Clean LINK //
 
-        const regex = /([^?]+)//g;
+        // const regex = /([^?]+)//g;
+        var regex = new RegExp("([^?]+)");
         var myarray = link.match(regex);
         link = myarray[0];
         console.log("Lien (sans la fin) : " + link);
 
         //extract id link //
 
-        const regex2 = /\d{12,12}//g;
+        // const regex2 = /\d{12,12}//g;
+        var regex2 = new RegExp("\d{12,12}");
         var myarray2 = link.match(regex2);
         var id = myarray2[0];
         console.log("ID : " + id);
@@ -99,6 +101,6 @@ waitForEl(selector, function() {
 
 
 
-  alert("yay");
+  alert("v2.0");
 
 });
